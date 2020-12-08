@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Main screen is visible" time="60.421" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/markcraigrobertson/devProjects/mobile-automation/target/test-classes:/Users/markcraigrobertson/devProjects/mobile-automation/target/classes:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/markcraigrobertson/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.0/cucumber-picocontainer-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/markcraigrobertson/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/markcraigrobertson/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/markcraigrobertson/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/markcraigrobertson/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/markcraigrobertson/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/markcraigrobertson/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/markcraigrobertson/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/markcraigrobertson/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/markcraigrobertson/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/markcraigrobertson/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/markcraigrobertson/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/markcraigrobertson/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/markcraigrobertson/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/markcraigrobertson/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/markcraigrobertson/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/markcraigrobertson/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/markcraigrobertson/.m2/repository/net/masterthought/maven-cucumber-reporting/5.4.0/maven-cucumber-reporting-5.4.0.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar:/Users/markcraigrobertson/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/markcraigrobertson/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/markcraigrobertson/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/markcraigrobertson/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/markcraigrobertson/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/markcraigrobertson/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/Users/markcraigrobertson/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/markcraigrobertson/.m2/repository/net/masterthought/cucumber-reporting/5.4.0/cucumber-reporting-5.4.0.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/Users/markcraigrobertson/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/markcraigrobertson/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/Users/markcraigrobertson/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/Users/markcraigrobertson/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/markcraigrobertson/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/markcraigrobertson/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/markcraigrobertson/devProjects/mobile-automation/target/surefire/surefirebooter849526653637564965.jar /Users/markcraigrobertson/devProjects/mobile-automation/target/surefire 2020-12-07T14-28-13_958-jvmRun1 surefire1838650059797545829tmp surefire_04278222624902327888tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/markcraigrobertson/devProjects/mobile-automation/target/test-classes:/Users/markcraigrobertson/devProjects/mobile-automation/target/classes:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-java/6.9.0/cucumber-java-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-core/6.9.0/cucumber-core-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin/6.9.0/cucumber-gherkin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.9.0/cucumber-gherkin-messages-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/messages/13.2.0/messages-13.2.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-plugin/6.9.0/cucumber-plugin-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/docstring/6.9.0/docstring-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/create-meta/2.0.4/create-meta-2.0.4.jar:/Users/markcraigrobertson/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-junit/6.9.0/cucumber-junit-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/io/cucumber/cucumber-picocontainer/6.9.0/cucumber-picocontainer-6.9.0.jar:/Users/markcraigrobertson/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/markcraigrobertson/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/markcraigrobertson/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/markcraigrobertson/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/markcraigrobertson/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/markcraigrobertson/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/markcraigrobertson/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/markcraigrobertson/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/markcraigrobertson/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/markcraigrobertson/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/markcraigrobertson/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/markcraigrobertson/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/markcraigrobertson/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/markcraigrobertson/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/markcraigrobertson/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/markcraigrobertson/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/markcraigrobertson/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/markcraigrobertson/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/markcraigrobertson/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/markcraigrobertson/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/markcraigrobertson/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/markcraigrobertson/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/markcraigrobertson/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/markcraigrobertson/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/markcraigrobertson/.m2/repository/net/masterthought/maven-cucumber-reporting/5.4.0/maven-cucumber-reporting-5.4.0.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-plugin-api/3.6.3/maven-plugin-api-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar:/Users/markcraigrobertson/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.4/org.eclipse.sisu.plexus-0.3.4.jar:/Users/markcraigrobertson/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/markcraigrobertson/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/markcraigrobertson/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/markcraigrobertson/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/markcraigrobertson/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/markcraigrobertson/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/markcraigrobertson/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/markcraigrobertson/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/markcraigrobertson/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/Users/markcraigrobertson/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/markcraigrobertson/.m2/repository/net/masterthought/cucumber-reporting/5.4.0/cucumber-reporting-5.4.0.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/markcraigrobertson/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/Users/markcraigrobertson/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/markcraigrobertson/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/Users/markcraigrobertson/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/Users/markcraigrobertson/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/markcraigrobertson/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/markcraigrobertson/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/markcraigrobertson"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/markcraigrobertson/devProjects/mobile-automation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/markcraigrobertson/devProjects/mobile-automation/target/surefire/surefirebooter849526653637564965.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="markcraigrobertson"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/markcraigrobertson/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/"/>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="/Users/markcraigrobertson/devProjects/mobile-automation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/markcraigrobertson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="/Users/markcraigrobertson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="The main screen is displayed and functions" classname="Main screen is visible" time="60.421">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open &apos;/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard&apos;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Marks-iMac.local&apos;, ip: &apos;192.168.1.87&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open &apos;/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard&apos;&#10;    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Marks-iMac.local&apos;, ip: &apos;192.168.1.87&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
+]]></error>
+    <system-out><![CDATA[
+@allTest @passingTest
+Scenario: The main screen is displayed and functions &amp#27;[90m# src/test/resources/Main.feature:9&amp#27;[0m
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.18.3
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
+&amp#27;[35m[Appium]&amp#27;[39m   port: 56161
+&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 56165
+&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
+&amp#27;[35m[Appium]&amp#27;[39m   chromedriverPort: 56163
+&amp#27;[35m[Appium]&amp#27;[39m Deprecated server args:
+&amp#27;[35m[Appium]&amp#27;[39m   &amp#27;[31m--chromedriver-port&amp#27;[39m => --default-capabilities '{"chromedriverPort":56163}'
+&amp#27;[35m[Appium]&amp#27;[39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+&amp#27;[35m[Appium]&amp#27;[39m   chromedriverPort: 56163
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:56161
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.3"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m6 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"app":"app/android/demo.apk","appActivity":".view.TextFields","appPackage":"io.appium.android.apis","platformName":"Android","applicationName":"UIAutomator2"},"capabilities":{"firstMatch":[{"appium:app":"app/android/demo.apk","appium:appActivity":".view.TextFields","appium:appPackage":"io.appium.android.apis","applicationName":"UIAutomator2","platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"app":"app/android/demo.apk","appActivity":".view.TextFields","appPackage":"io.appium.android.apis","platformName":"Android","applicationName":"UIAutomator2"},null,{"firstMatch":[{"appium:app":"app/android/demo.apk","appium:appActivity":".view.TextFields","appium:appPackage":"io.appium.android.apis","applicationName":"UIAutomator2","platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1607351344358 (14:29:04 GMT+0000 (Greenwich Mean Time))
+&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities are not standard capabilities and should have an extension prefix:
+&amp#27;[35m[BaseDriver]&amp#27;[39m   applicationName
+&amp#27;[35m[BaseDriver]&amp#27;[39m   chromedriverPort
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m   DEPRECATION WARNING:
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The 'automationName' capability was not provided in the desired 
+&amp#27;[35m[Appium]&amp#27;[39m   capabilities for this Android session
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   Setting 'automationName=UiAutomator2' by default and using the 
+&amp#27;[35m[Appium]&amp#27;[39m   UiAutomator2 Driver
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   The next major version of Appium (2.x) will **require** the 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName' capability to be set for all sessions on all 
+&amp#27;[35m[Appium]&amp#27;[39m   platforms
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   In previous versions (Appium <= 1.13.x), the default was 
+&amp#27;[35m[Appium]&amp#27;[39m   'automationName=UiAutomator1'
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   If you wish to use that automation instead of UiAutomator2, please 
+&amp#27;[35m[Appium]&amp#27;[39m   add 'automationName=UiAutomator1' to your desired capabilities
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m   For more information about drivers, please visit 
+&amp#27;[35m[Appium]&amp#27;[39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+&amp#27;[35m[Appium]&amp#27;[39m   'Drivers' menu
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m ======================================================================
+&amp#27;[35m[Appium]&amp#27;[39m 
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.18.3 creating new AndroidUiautomator2Driver (v1.56.1) session
+[debug] &amp#27;[35m[Appium]&amp#27;[39m There are no active sessions for cleanup
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:applicationName": "UIAutomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:chromedriverPort": 56163,
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:app": "app/android/demo.apk",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": ".view.TextFields",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "io.appium.android.apis"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
+&amp#27;[35m[BaseDriver]&amp#27;[39m   applicationName
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 86355c01-5f85-435f-aad4-30ef858d23e2
+&amp#27;[35m[BaseDriver]&amp#27;[39m Using local app 'app/android/demo.apk'
+&amp#27;[35m[BaseDriver]&amp#27;[39m The current application path 'app/android/demo.apk' is not absolute and has been rewritten to '/Users/markcraigrobertson/devProjects/mobile-automation/app/android/demo.apk'. Consider using absolute paths rather than relative
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Checking whether app is actually present
+&amp#27;[35m[ADB]&amp#27;[39m Found 1 'build-tools' folders under '/Users/markcraigrobertson/Library/Android/sdk' (newest first):
+&amp#27;[35m[ADB]&amp#27;[39m     /Users/markcraigrobertson/Library/Android/sdk/build-tools/30.0.2
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: emulator-5554
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to emulator-5554
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 25
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 25
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.0' >= '3.2.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logs capture with command: /Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/markcraigrobertson/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.android.apis'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1607351355952 (14:29:15 GMT+0000 (Greenwich Mean Time))
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: Error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at DEVICE_PORT_ALLOCATION_GUARD (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/util.js:477:13)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.allocateSystemPort (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:273:11)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:355:16)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:221:7)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:358:35)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Destroying socket connection
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m12055 ms - 955&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at com.mobile.base.Base.configureAppiumDriver(Base.java:71)
+	at com.mobile.base.Base.getDriver(Base.java:46)
+	at com.mobile.hooks.Hooks.setUp(Hooks.java:23)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94)
+	at com.mobile.base.Base.configureAppiumDriver(Base.java:71)
+	at com.mobile.base.Base.getDriver(Base.java:46)
+	at com.mobile.hooks.Hooks.setUp(Hooks.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Marks-iMac.local', ip: '192.168.1.87', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not acquire lock on /var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard. Original error: Error: EEXIST: file already exists, open '/var/folders/6j/tstynf051y3059t221wl384c0000gn/T/uia2_device_port_guard'
+    at getResponseForW3CError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:381:37)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 55 more
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI enter &amp#27;[0m&amp#27;[36m&amp#27;[1m"Hello World!"&amp#27;[0m&amp#27;[36m in the text field&amp#27;[0m     &amp#27;[90m# com.mobile.stepdefs.MainScreenSteps.iEnterInTheTextField(java.lang.String)&amp#27;[0m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.18.3"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>
